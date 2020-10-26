@@ -7,7 +7,7 @@
         <br />(temperature, wind, pressure) on the surface of Mars in Elysium
         Planitia, a flat smooth plain near the equator of Mars.
       </p>
-    </div>
+      </div>
     <div class="wrapp__item" v-if="lastSol">
       <p class="container__item">Date of sol: {{ lastSol.sol }}</p>
       <p class="container__item">Date: {{ dateConvert(lastSol.time) }}</p>
